@@ -1,26 +1,45 @@
 body {
    font-family: Arial, sans-serif;
-   line-height: 1.6;
+   margin: 0;
+   padding: 0;
    background-color: #f8f9fa;
 }
-.container {
+.page {
    margin: 20px auto;
    padding: 20px;
    max-width: 800px;
-}
-.page {
-   margin-bottom: 20px;
-   padding: 20px;
-   background-color: #fff;
+   background-color: white;
    border: 1px solid #ddd;
    border-radius: 5px;
 }
-.page h1 {
+h1 {
    font-size: 24px;
    margin-bottom: 10px;
+   color: #232f3e;
 }
-.page p {
-   margin: 0 0 10px;
+h2 {
+   font-size: 20px;
+   margin-bottom: 10px;
+   color: #232f3e;
+}
+p {
+   margin: 10px 0;
+   color: #333;
+}
+table {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 20px;
+}
+table, th, td {
+   border: 1px solid #ddd;
+}
+th, td {
+   padding: 10px;
+   text-align: left;
+}
+th {
+   background-color: #f2f2f2;
 }
 .annotation a {
    color: #0066cc;
@@ -28,4 +47,9 @@ body {
 }
 .annotation a:hover {
    text-decoration: underline;
+}
+.logo {
+   width: 150px;
+   display: block;
+   margin: 0 auto 20px auto;
 }
