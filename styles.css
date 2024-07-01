@@ -1,0 +1,31 @@
+body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   background-color: #f8f9fa;
+}
+.container {
+   margin: 20px auto;
+   padding: 20px;
+   max-width: 800px;
+}
+.page {
+   margin-bottom: 20px;
+   padding: 20px;
+   background-color: #fff;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+}
+.page h1 {
+   font-size: 24px;
+   margin-bottom: 10px;
+}
+.page p {
+   margin: 0 0 10px;
+}
+.annotation a {
+   color: #0066cc;
+   text-decoration: none;
+}
+.annotation a:hover {
+   text-decoration: underline;
+}
