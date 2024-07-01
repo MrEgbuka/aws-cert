@@ -12,33 +12,38 @@ body {
    border: 1px solid #ddd;
    border-radius: 5px;
 }
-h1 {
+h1.title, h2.subtitle {
+   text-align: center;
+   font-weight: bold;
+   line-height: 2;
+}
+h1.title {
    font-size: 24px;
-   margin-bottom: 10px;
    color: #232f3e;
 }
-h2 {
+h2.subtitle {
    font-size: 20px;
-   margin-bottom: 10px;
    color: #232f3e;
 }
 p {
    margin: 10px 0;
    color: #333;
+   font-size: 14px;
 }
-table {
+p strong {
+   font-weight: bold;
+}
+.info-table, .results-table {
    width: 100%;
    border-collapse: collapse;
-   margin-top: 20px;
+   margin: 20px 0;
+   font-size: 14px;
 }
-table, th, td {
+.info-table td, .results-table th, .results-table td {
    border: 1px solid #ddd;
+   padding: 8px;
 }
-th, td {
-   padding: 10px;
-   text-align: left;
-}
-th {
+.results-table th {
    background-color: #f2f2f2;
 }
 .annotation a {
